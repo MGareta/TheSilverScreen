@@ -4,5 +4,11 @@
 
     <string name="toolbar_menuIcon">Menu</string>
     <string name="toolbar_searchIcon">Search</string>
+    <string-array name="toolbar_spinnerEntries">
+        <item>Now Playing</item>
+        <item>Upcoming</item>
+        <item>Popular</item>
+        <item>Top Rated</item>
+    </string-array>
 
 </resources>

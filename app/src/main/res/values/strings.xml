@@ -1,3 +1,8 @@
 <resources>
+
     <string name="app_name">TheSilverScreen</string>
+
+    <string name="toolbar_menuIcon">Menu</string>
+    <string name="toolbar_searchIcon">Search</string>
+
 </resources>

@@ -7,7 +7,7 @@
     <dimen name="width_spinner">200dp</dimen>
     <dimen name="width_spinner_backgroundShapeStroke">1dp</dimen>
     <dimen name="padding_spinner_backgroundShape">3dp</dimen>
-    <dimen name="radius_spinner_backgroundShape">100dp</dimen>
+    <dimen name="radius_spinner_backgroundShape">10dp</dimen>
     <dimen name="margin_spinner_moreIcon">12dp</dimen>
 
 </resources>

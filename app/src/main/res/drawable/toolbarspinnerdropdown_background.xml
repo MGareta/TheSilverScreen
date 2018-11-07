@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list
+<selector
     xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item
-        android:right="@dimen/margin_spinner_moreIcon"
-        android:gravity="end"
-        android:drawable="@drawable/ic_toolbar_more"/>
 
     <item>
         <shape>
@@ -13,15 +8,18 @@
                 android:width="@dimen/width_spinner_backgroundShapeStroke"
                 android:color="@color/colorPrimaryText"/>
 
+            <solid
+                android:color="@color/colorPrimary" />
+
             <padding
                 android:top="@dimen/padding_spinner_backgroundShape"
                 android:bottom="@dimen/padding_spinner_backgroundShape"
                 android:left="@dimen/padding_spinner_backgroundShape"/>
 
             <corners
-                android:topRightRadius="@dimen/radius_spinner_backgroundShape"
-                android:topLeftRadius="@dimen/radius_spinner_backgroundShape"/>
+                android:bottomRightRadius="@dimen/radius_spinner_backgroundShape"
+                android:bottomLeftRadius="@dimen/radius_spinner_backgroundShape"/>
         </shape>
     </item>
 
-</layer-list>
+</selector>

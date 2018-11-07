@@ -18,4 +18,9 @@
         <item name="android:overlapAnchor">false</item>
     </style>
 
+    <style name="MaterialSearchViewStyle">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textColorHint">@color/colorSecondaryText</item>
+    </style>
+
 </resources>

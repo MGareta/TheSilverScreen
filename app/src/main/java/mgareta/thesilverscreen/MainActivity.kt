@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import kotlinx.android.synthetic.main.main_activity.*
 import mgareta.thesilverscreen.ui.main.MainFragment
+import mgareta.thesilverscreen.ui.main.listeners.MaterialSearchViewListener
 import mgareta.thesilverscreen.ui.main.listeners.SpinnerListener
 
 class MainActivity : AppCompatActivity() {
@@ -35,10 +36,12 @@ class MainActivity : AppCompatActivity() {
         super.onResume()
 
         spinner_toolbar.onItemSelectedListener = SpinnerListener()
+        materialSearchView_toolbar.setOnQueryTextListener(MaterialSearchViewListener())
     }
 
     override fun onPause() {
         spinner_toolbar.onItemSelectedListener = null
+        materialSearchView_toolbar.setOnQueryTextListener(null)
 
         super.onPause()
     }

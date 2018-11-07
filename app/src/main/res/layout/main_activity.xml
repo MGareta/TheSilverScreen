@@ -26,6 +26,7 @@
             android:contentDescription="@string/toolbar_menuIcon"/>
 
         <Spinner
+            android:id="@+id/spinner_toolbar"
             android:layout_width="@dimen/width_spinner"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

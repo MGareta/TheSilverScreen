@@ -5,6 +5,7 @@
     <string name="toolbar_menuIcon">Menu</string>
     <string name="toolbar_searchIcon">Search</string>
     <string-array name="toolbar_spinnerEntries">
+    <string name="toolbar_moreIcon">More</string>
         <item>Now Playing</item>
         <item>Upcoming</item>
         <item>Popular</item>

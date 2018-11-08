@@ -25,8 +25,32 @@
             android:src="@drawable/ic_toolbar_menu"
             android:contentDescription="@string/toolbar_menuIcon"/>
 
+        <TextView
+            android:id="@+id/textView_boomMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <com.nightonke.boommenu.BoomMenuButton
+            android:id="@+id/boomMenuButton_toolbar"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            app:bmb_backgroundEffect="false"
+            app:bmb_buttonEnum="ham"
+            app:bmb_piecePlaceEnum="piecePlace_ham_4"
+            app:bmb_buttonPlaceEnum="buttonPlace_ham_4"
+            app:bmb_hamWidth="@dimen/contentInset_toolbar"
+            app:bmb_hamHeight="@dimen/contentInset_toolbar">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_toolbar_more"
+                android:contentDescription="@string/toolbar_moreIcon"/>
+
+        </com.nightonke.boommenu.BoomMenuButton>
 
         <ImageView
             android:layout_width="wrap_content"

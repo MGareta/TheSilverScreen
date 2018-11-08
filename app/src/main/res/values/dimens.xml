@@ -9,5 +9,6 @@
     <dimen name="padding_spinner_backgroundShape">3dp</dimen>
     <dimen name="radius_spinner_backgroundShape">10dp</dimen>
     <dimen name="margin_spinner_moreIcon">12dp</dimen>
+    <dimen name="radius_boomMenu_moreIcon">12dp</dimen>
 
 </resources>

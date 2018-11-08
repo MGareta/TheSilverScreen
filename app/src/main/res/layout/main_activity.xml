@@ -25,13 +25,8 @@
             android:src="@drawable/ic_toolbar_menu"
             android:contentDescription="@string/toolbar_menuIcon"/>
 
-        <Spinner
-            android:id="@+id/spinner_toolbar"
-            android:layout_width="@dimen/width_spinner"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:entries="@array/toolbar_spinnerEntries"
-            style="@style/SpinnerToolbarStyle"/>
 
         <ImageView
             android:layout_width="wrap_content"

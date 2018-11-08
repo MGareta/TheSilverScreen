@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="toolbar_endPointEntriesIcons">
+        <item>@drawable/ic_toolbarspinner_nowplaying</item>
+        <item>@drawable/ic_toolbarspinner_upcoming</item>
+        <item>@drawable/ic_toolbarspinner_popular</item>
+        <item>@drawable/ic_toolbarspinner_toprated</item>
+    </array>
+</resources>

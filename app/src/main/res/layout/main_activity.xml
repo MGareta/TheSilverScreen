@@ -26,11 +26,11 @@
             android:contentDescription="@string/toolbar_menuIcon"/>
 
         <TextView
-            android:id="@+id/textView_boomMenuButton"
+            android:id="@+id/textView_endPointChooser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            style="@style/TextViewEndPointChoose"/>
+            style="@style/TextViewEndPointChooser"/>
 
         <com.nightonke.boommenu.BoomMenuButton
             android:id="@+id/boomMenuButton_toolbar"

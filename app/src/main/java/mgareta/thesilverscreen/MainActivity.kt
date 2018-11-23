@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
 
         endPointsIcons.recycle()
 
-        textView_boomMenuButton.text = endPointsTitleEntries[0].toString()
-        textView_boomMenuButton.isAllCaps = true
+        textView_endPointChooser.text = endPointsTitleEntries[0].toString()
+        textView_endPointChooser.isAllCaps = true
     }
 }

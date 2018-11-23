@@ -19,4 +19,7 @@
         <item name="android:textColorHint">@color/colorSecondaryText</item>
     </style>
 
+    <style name="TextViewEndPointChoose" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
 </resources>

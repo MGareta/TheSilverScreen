@@ -71,5 +71,6 @@ class MainActivity : AppCompatActivity() {
         endPointsIcons.recycle()
 
         textView_boomMenuButton.text = endPointsTitleEntries[0].toString()
+        textView_boomMenuButton.isAllCaps = true
     }
 }
